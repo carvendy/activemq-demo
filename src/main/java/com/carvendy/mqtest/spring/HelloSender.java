@@ -1,4 +1,4 @@
-package com.youboy.mqtest.spring;
+package com.carvendy.mqtest.spring;
 
 import javax.jms.JMSException;
 import javax.jms.Session;

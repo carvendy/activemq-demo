@@ -1,4 +1,4 @@
-package com.youboy.mqtest.spring;
+package com.carvendy.mqtest.spring2;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -16,7 +16,7 @@ public class SpringUtils {
 
 	public static ApplicationContext getApplicationContext() {
 		if(applicationContext == null){
-			applicationContext = new ClassPathXmlApplicationContext("classpath:/META-INF/spring/applicationContext-jms.xml");
+			applicationContext = new ClassPathXmlApplicationContext("classpath:/META-INF/spring/applicationContext-jms2.xml");
 		}
 		
 		return applicationContext;

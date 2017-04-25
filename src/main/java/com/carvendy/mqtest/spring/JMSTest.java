@@ -1,4 +1,4 @@
-package com.youboy.mqtest.spring;
+package com.carvendy.mqtest.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

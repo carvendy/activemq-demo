@@ -21,11 +21,11 @@
         <property name="receiveTimeout" value="600"></property>
 
     </bean>
-    <bean id="sender" class="com.youboy.mqtest.spring2.Sender">
+    <bean id="sender" class="com.carvendy.mqtest.spring2.Sender">
         <property name="jmsTemplate" ref="jmsTemplate"></property>
 
     </bean>
-    <bean id="receiver" class="com.youboy.mqtest.spring2.Receiver">
+    <bean id="receiver" class="com.carvendy.mqtest.spring2.Receiver">
         <property name="jmsTemplate" ref="jmsTemplate"></property>
     </bean>
 </beans>

@@ -1,4 +1,4 @@
-package com.youboy.mqtest.spring2;
+package com.carvendy.mqtest.spring2;
 
 import javax.jms.JMSException;
 import javax.jms.MapMessage;

@@ -1,4 +1,4 @@
-package com.youboy.mqtest.spring;
+package com.carvendy.mqtest.spring;
 
 import javax.jms.Destination;
 import javax.jms.TextMessage;
